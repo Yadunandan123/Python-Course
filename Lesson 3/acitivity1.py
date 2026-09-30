@@ -45,3 +45,5 @@ print("After seed reserve :", total, "kg")
 # Final bag count after all adjustments
 bags = total // 25
 print("Final bags packed  :", bags)
+
+

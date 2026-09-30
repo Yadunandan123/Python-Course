@@ -1,0 +1,12 @@
+a = int(input("enter a value"))
+b = int(input("enter a second value"))
+c = int(input("enter a third value"))
+avg = (a + b + c) / 3
+if avg > a and avg >b and avg > c: 
+    print("Higher than all three values")
+elif avg > a and avg > b: 
+    print("Higher than a and b")
+elif avg > a: 
+    print("Higher than a only")
+else: 
+    print("Not higher than any of the values")
